@@ -1,5 +1,7 @@
 package modell;
 
+import java.util.ArrayList;
+
 public class Cliente {
 
 	private String nome;
@@ -7,6 +9,8 @@ public class Cliente {
 	private String email;
 	private String telemovel;
 	int id;
+	
+	private ArrayList<Restaurante> restaurantes;
 	
 	public Cliente(String nome, String morada, String email, String telemovel, int id) {
 		super();
